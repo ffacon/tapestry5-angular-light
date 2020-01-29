@@ -1,0 +1,28 @@
+<html ng-app="phonecat" lang="en" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+    <head>
+        <meta charset="utf-8" />
+        <title>Tapestry 5 Angular - ${pageTitle}</title>
+    </head>
+    <body >
+         <div class="col-md-4">
+            <p >
+                Welcome to Tapestry Angular Sample.
+            
+            </p>
+            <br/> 
+            <p> 
+            	This page is powered by Tapestry 
+            </p>
+            <br/>
+            <p> 
+                Click here to load the [<strong><a href="/angular/index.html" >"Angular Application"</a></strong>]<br/>
+            </p>
+            <p> 
+                Click here to reach the [<strong><a href="/admin/sec/login" >"Tapestry Application"</a></strong>]<br/>
+            </p>
+            
+
+        </div>
+		<t:body />
+	</body>
+</html>

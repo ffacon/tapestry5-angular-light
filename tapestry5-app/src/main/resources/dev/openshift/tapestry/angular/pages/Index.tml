@@ -1,0 +1,8 @@
+<html t:type="layoutFinal" t:pageTitle="Demo"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" 
+      xmlns:p="tapestry:parameter">
+
+      <div ui-view="" ></div>
+
+      
+</html>

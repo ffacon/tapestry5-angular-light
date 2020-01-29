@@ -1,0 +1,9 @@
+[
+    { "id": 0, "author": "Yassine", "category": "True Fact", "content": "Angular is awesome!!!!", "likes": 8 },
+    { "id": 1, "author": "Nourredine", "category": "Security", "content": "The Training 'Secure coding : Develop secure Angular applications' is also available on demand", "likes": 10 },
+    { "id": 2, "author": "Bruno", "category": "True fact", "content": "Angular training is awesome!!!!", "likes": 1200 },
+    { "id": 3, "author": "Philippe", "category": "Training", "content": "Save the date for the next 'OpenShift training : Learn to develop and deploy your applications' ", "likes": 777},
+    { "id": 4, "author": "Yassine", "category": "True fact", "content": "PWA with Angular is easy", "likes": 200},
+    { "id": 5, "author": "François", "category": "JHipster", "content": "JHipster - Generate your Spring Boot + Angular Application at https://www.jhipster.tech/", "likes": 7},
+    { "id": 6, "author": "François", "category": "OpenShift", "content": "OpenShift is becoming the default Choice for Enterprise Kubernetes.", "likes": 77}
+]
