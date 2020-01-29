@@ -1,0 +1,38 @@
+<div id="container">
+  
+  <header role="banner">
+
+    <h1>
+      SDCO News Room 
+      <small>Latest news from SDCO!</small>
+    </h1>
+    
+    <p *ngIf="userService.isLogged" class="k-login-data">  
+      <strong><a (click)="logout()" [routerLink]="['home']" >Logout</a></strong>
+    </p>
+
+    <p id="loginLink" class="k-login-data">
+      <a *ngIf="!userService.isLogged" [routerLink]="['login']" >Sign-in</a>
+    </p>
+
+  </header>
+  
+  <div id="wrapper">
+    <div id="main" role="main">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+ 
+  
+  <footer role="contentinfo">
+    <p class="k-copyright">&copy; SDCO</p>
+    <p> 
+         This page is powered by Angular 
+    </p>
+    <p> 
+      Click here to reach the [<strong><a href="/" >"Tapestry Application Root page"</a></strong>]<br/>
+    </p>
+  </footer>
+  
+</div>
