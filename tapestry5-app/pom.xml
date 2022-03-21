@@ -8,7 +8,7 @@
 	<name>Light integration of a Angular app in a Tapestry 5 app</name>
 	
 	<properties>
-		<tapestry-release-version>5.4.5</tapestry-release-version>
+		<tapestry-release-version>5.6.4</tapestry-release-version>
 		<hibernate-framework-version>3.6.10.Final</hibernate-framework-version>
 		<slf4j-version>1.7.2</slf4j-version>
 		<servlet-api-release-version>2.5</servlet-api-release-version>
